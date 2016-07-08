@@ -1,9 +1,15 @@
 .heading
 {
 	width:100%;
-	height:200px;
-	background-color: 0 0 0 9;
+	height:60px;
+	background-size: cover;
+    background: url(../image/c1.jpg) no-repeat;
+    position: fixed;
+overflow: hidden;
+top:0;
+z-index: 1000;
 }
+
 
 .list li {
 
@@ -29,14 +35,14 @@
 }
 .hero
 {
-	background: url(../image/c3.jpg) no-repeat;
+	background: url(../image/c1.jpg) no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
     width:100%;
     height: 100%;
     position:relative;
-
-    top:0;
+    top:-20px;
+    z-index: -999;
 }
 #dosa
 {
@@ -51,21 +57,20 @@
 	
 
 }
+.grid_12{
+	margin-left: 18px;
+
+}
 #dosa_des
 {
 	position: relative;
 	top:5px;
 }
-#dos_des h1
-{
-	text-align: center;
-	padding-left: 20px;
 
-}
 
 #img2
 {
-	background: url(../image/b3.jpg);
+	background: url(../image/b5.jpg);
 	width:316px;
 	height: 320px;
 	position: relative;
@@ -81,7 +86,7 @@
 }
 #img3
 {
-	background: url(../image/b5.jpg);
+	background: url(../image/b2.jpg);
 	width:316px;
 	height: 320px;
 	position: relative;
@@ -99,7 +104,7 @@
 {
 	margin-left: 105px;
       margin-top: 70px;
-      
+      padding-top: 120px;
 }
 .hname h1
 {
@@ -112,14 +117,15 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 .b1
 {
-	background:gray;
-	background-size:cover;
+	background:#fff;
+	z-index:-999;
+
 	height: 100vh;
 
 }
 .container_12
 {
-	background-color:#fff;
+	background-color:#ADD8E6;
 	
 }
 .logo
@@ -178,4 +184,12 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 .grid_8 p{
 	text-align: left;
+	padding-top: 10px;
+	padding-right: 10px;
+
+}
+.footer
+{
+	background: gray;
+	width:100%;
 }
