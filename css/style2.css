@@ -1,0 +1,34 @@
+.heading
+{
+	width:100%;
+	height:60px;
+	background-size: cover;
+    background: url(../image/c1.jpg) no-repeat;
+    position: fixed;
+overflow: hidden;
+top:0;
+z-index: 1000;
+}
+
+
+.list li {
+
+	display: inline;
+	float: right;
+   margin-top: 20px;
+	margin-right: 50px; 
+	font-size: 20px;
+	font-family: sans-serif;
+	
+}
+
+.list li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.list li a:hover
+{
+	font-size: 30px;
+	text-decoration:bold;
+	color: gold;
