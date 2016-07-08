@@ -40,34 +40,60 @@
 }
 #dosa
 {
-	background: url(../image/b1.jpg);
-	width:320px;
+	background: url(../image/dosa1.jpg);
+	width:316px;
 	height: 320px;
 	position: relative;
-	top:0px;
+	top:5px;
 	background-size: cover;
-	margin-left:0;
+	margin-right:0;
+	margin-left: 4px;
+	
 
 }
-.omega
+#dosa_des
 {
-	margin-left: 0;
+	position: relative;
+	top:5px;
 }
-.img2
+#dos_des h1
 {
-	background: url(../image/b2.jpg);
-	width:320px;
-	height: 320px;
-	margin:0;
-	
+	text-align: center;
+	padding-left: 20px;
+
 }
-.img3
+
+#img2
 {
 	background: url(../image/b3.jpg);
-	width:320px;
+	width:316px;
 	height: 320px;
 	position: relative;
-	margin:0;
+	top:10px;
+	background-size: cover;
+	margin-right:0;
+	margin-left: 4px;
+}
+#img2_des
+{
+	position: relative;
+	top:10px;
+}
+#img3
+{
+	background: url(../image/b5.jpg);
+	width:316px;
+	height: 320px;
+	position: relative;
+	top:15px;
+    background-size: cover;
+	margin-right:0;
+	margin-left: 4px;
+}
+#img3_des
+{
+	position: relative;
+	top:15px;
 }
 .hname
 {
@@ -78,7 +104,7 @@
 .hname h1
 {
 	color:#fff;
-	font-size: 40px;
+	font-size: 50px;
 	opacity: 2;
 /*font-family: 'Lobster', cursive;*/
 font-family: 'Roboto Condensed', sans-serif;
@@ -86,14 +112,15 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 .b1
 {
-	background-color:black;
-	
+	background:gray;
+	background-size:cover;
+	height: 100vh;
+
 }
 .container_12
 {
 	background-color:#fff;
-	height: 70%;
-	b
+	
 }
 .logo
 {
@@ -114,5 +141,41 @@ font-family: 'Roboto Condensed', sans-serif;
    font-size: 25px;
    color: #fff;
    font-style: bold;
-   background:balck;
+ 
+}
+#spl
+{
+	background-color: black;
+	opacity: 0.7;
+	height: 70px;
+	margin: 0;
+	margin: 0;
+	padding-right: 0;
+	position: relative;
+	width:100%;
+
+}
+#spl h1
+{
+	text-align: center;
+	padding-top: 20px;
+	font-size:20px;
+	font-family: font-family: 'Chewy', cursive;
+	color: white;
+}
+.grid_8
+{
+	width:100%;
+	position: relative;
+	left: 0;
+}
+.grid_8 h1
+{
+	text-align: center;
+	font-size: 30px;
+	background-color: green;
+	width: 100%;
+}
+.grid_8 p{
+	text-align: left;
 }
