@@ -2,34 +2,57 @@
 {
 	width:100%;
 	height:200px;
-	background: blue;
+	background-color: 0 0 0 9;
 }
-.list li{
+
+.list li {
+
 	display: inline;
 	float: right;
-	margin top: 10px;
-	margin-right: 20px; 
-	font-size: 2opx
+   margin-top: 20px;
+	margin-right: 50px; 
+	font-size: 20px;
+	font-family: sans-serif;
+	
+}
+
+.list li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.list li a:hover
+{
+	font-size: 40px;
+	text-decoration:bold;
+	color: gold;
 }
 .hero
 {
-	background: url(../image/b5.jpg);
+	background: url(../image/c3.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
     width:100%;
     height: 100%;
-    background-attachment: fixed;
-    position: relative;
-    top:0px;
+    position:relative;
+
+    top:0;
 }
-.img1
+#dosa
 {
 	background: url(../image/b1.jpg);
 	width:320px;
 	height: 320px;
-	margin:0;
-	
+	position: relative;
+	top:0px;
+	background-size: cover;
+	margin-left:0;
 
 }
-
+.omega
+{
+	margin-left: 0;
+}
 .img2
 {
 	background: url(../image/b2.jpg);
@@ -45,4 +68,51 @@
 	height: 320px;
 	position: relative;
 	margin:0;
+}
+.hname
+{
+	margin-left: 105px;
+      margin-top: 70px;
+      
+}
+.hname h1
+{
+	color:#fff;
+	font-size: 40px;
+	opacity: 2;
+/*font-family: 'Lobster', cursive;*/
+font-family: 'Roboto Condensed', sans-serif;
+
+}
+.b1
+{
+	background-color:black;
+	
+}
+.container_12
+{
+	background-color:#fff;
+	height: 70%;
+	b
+}
+.logo
+{
+	background: url(../image/l2.jpg);
+	margin-top:30px;
+	margin-left: 30px;
+}
+.blockquotes
+{
+	background:black;
+	opacity: 0.6;
+}
+.blockquotes p
+{
+	margin-top: 75px;
+   margin-left: 60%;
+   font-family: sans-serif;
+   font-size: 25px;
+   color: #fff;
+   font-style: bold;
+   background:balck;
 }
